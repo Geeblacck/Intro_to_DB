@@ -45,3 +45,10 @@ CREATE TABLE Order_Details (
     FOREIGN KEY (order_id) REFERENCES Orders(order_id),
     FOREIGN KEY (book_id) REFERENCES Books(book_id)
 );
+git init
+git remote add origin https://github.com/Geeblackk/Intro_to_DB.git
+git branch -M main
+git add alx_book_store.sql
+git commit -m "Initial commit for ALX bookstore schema"
+git push -u origin main
+
